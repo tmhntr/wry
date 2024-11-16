@@ -550,7 +550,7 @@ impl<'a> Default for WebViewAttributes<'a> {
       devtools: false,
       zoom_hotkeys_enabled: false,
       accept_first_mouse: false,
-      back_forward_navigation_gestures: false,
+      back_forward_navigation_gestures: true,
       document_title_changed_handler: None,
       incognito: false,
       autoplay: true,
